@@ -1,0 +1,15 @@
+$sql="SELECT * FROM timetable
+                    INNER JOIN days ON timetable.id_day = days.id
+                    INNER JOIN lesnumbers ON timetable.id_lesnum = lesnumbers.id
+                    INNER JOIN teachless ON timetable.id_teachless = teachless.id
+                    INNER JOIN klass ON timetable.id_klass = klass.id
+                    INNER JOIN auditions ON timetable.id_aud = auditions.id";
+               $result = mysqli_query($db,$sql);
+              // echo "<table class='timetable'>";
+               while($row=mysqli_fetch_array($result)){
+               //echo "<tr>";
+                echo $row['klass_name'];
+            //echo "</tr>"   ;
+               };
+   
+//echo "</table>";

@@ -1,2 +1,2 @@
-# nish
-Назарбаевская интеллектуальная школа
+# hello-world
+Just another repository

@@ -1,0 +1,30 @@
+.header{
+    height: 5%;
+    background-color: aqua;
+    
+}
+
+.header h1{
+    font-size: 15px;
+}
+h2 {
+    font-size: 15px;
+    text-align: right;
+}
+
+.days {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.days li{
+    list-style: none;
+}
+
+.timetable{
+    border: solid #000 1px;
+}
+
+.timetable td {
+    border: solid #000 1px;
+}
